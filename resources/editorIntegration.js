@@ -320,65 +320,65 @@ IMPORTANT: Return ONLY the summary. Do NOT include any preamble, explanations, o
       return;
     }
 
+    let before, after, newPosition;
+
     if ( originalWord ) {
-      // For spell check: replace all occurrences of the word within the current selection
-      // Get the current selected text (which may have been updated by previous corrections)
-      const currentSelectionText = this.textarea.value.substring( this.selectionStart, this.selectionEnd );
+      const selectedText = this.textarea.value.substring( this.selectionStart, this.selectionEnd );
       const wordRegex = new RegExp( '\\b' + originalWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'g' );
-      const replacedText = currentSelectionText.replace( wordRegex, suggestion );
+      const replacedText = selectedText.replace( wordRegex, suggestion );
 
-      // Replace the selection with the corrected text
-      const before = this.textarea.value.substring( 0, this.selectionStart );
-      const after = this.textarea.value.substring( this.selectionEnd );
-      this.textarea.value = before + replacedText + after;
+      before = this.textarea.value.substring( 0, this.selectionStart );
+      after = this.textarea.value.substring( this.selectionEnd );
+  const newValue = before + replacedText + after;
+  this.applyTextChangeWithHistory( newValue );
 
-      // Calculate how much the text length changed
-      const lengthDifference = replacedText.length - currentSelectionText.length;
-      
-      // Update the selection end to reflect the new text length
-      this.selectionEnd = this.selectionEnd + lengthDifference;
-      
-      this.textarea.setSelectionRange( this.selectionStart, this.selectionEnd );
+  newPosition = this.selectionStart + replacedText.length;
     } else {
       // For other suggestions: replace entire selection
-      const before = this.textarea.value.substring( 0, this.selectionStart );
-      const after = this.textarea.value.substring( this.selectionEnd );
-      this.textarea.value = before + suggestion + after;
+      before = this.textarea.value.substring( 0, this.selectionStart );
+      after = this.textarea.value.substring( this.selectionEnd );
+  const newValue = before + suggestion + after;
+  this.applyTextChangeWithHistory( newValue );
 
-      // Update cursor position
-      let newPosition = this.selectionStart + suggestion.length;
-      this.textarea.setSelectionRange( newPosition, newPosition );
+  // Update cursor position
+  newPosition = this.selectionStart + suggestion.length;
     }
 
-    this.textarea.focus();
-
-    const event = new Event( 'input', { bubbles: true } );
-    this.textarea.dispatchEvent( event );
-  }
-
-  applyAllSuggestions( corrections ) {
-    if ( !corrections || corrections.length === 0 ) {
-      return;
-    }
-
-    let text = this.textarea.value.substring( this.selectionStart, this.selectionEnd );
-    
-    corrections.forEach( correction => {
-      const wordRegex = new RegExp( '\\b' + correction.original.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'g' );
-      text = text.replace( wordRegex, correction.replacement );
-    } );
-
-    const before = this.textarea.value.substring( 0, this.selectionStart );
-    const after = this.textarea.value.substring( this.selectionEnd );
-    this.textarea.value = before + text + after;
-
-    const newPosition = this.selectionStart + text.length;
     this.textarea.setSelectionRange( newPosition, newPosition );
     this.textarea.focus();
 
     // Trigger change event for MediaWiki
     const event = new Event( 'input', { bubbles: true } );
     this.textarea.dispatchEvent( event );
+  }
+
+  /**
+   * Apply text change in a way that plays nicely with the browser's
+   * undo / redo stack. Where supported, use execCommand on an input
+   * element so that Ctrl+Z will undo the change like a normal edit.
+   *
+   * Fallback to direct value assignment if execCommand is unavailable
+   * or fails for any reason.
+   *
+   * @param {string} newValue
+   */
+  applyTextChangeWithHistory( newValue ) {
+    try {
+      this.textarea.focus();
+      const supportsCommands = typeof document.queryCommandSupported === 'function';
+
+      if ( supportsCommands && document.queryCommandSupported( 'insertText' ) ) {
+        this.textarea.select();
+        const ok = document.execCommand( 'insertText', false, newValue );
+        if ( ok ) {
+          return;
+        }
+      }
+    } catch ( e ) {
+      console.warn( 'applyTextChangeWithHistory: falling back to direct value set', e );
+    }
+
+    this.textarea.value = newValue;
   }
 
   getSelectionCoordinates() {
