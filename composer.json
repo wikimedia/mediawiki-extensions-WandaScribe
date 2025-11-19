@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/wanda",
+	"name": "mediawiki/wanda-scribe",
 	"description": "Chatbot for MediaWiki",
 	"type": "mediawiki-extension",
 	"authors": [
@@ -8,6 +8,10 @@
 			"email": "nk2indian@gmail.com"
 		}
 	],
+	"require": {
+		"php": ">=7.4.0",
+		"composer/installers": "^1.0.1"
+	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "48.0.0",
 		"mediawiki/mediawiki-phan-config": "0.17.0",
