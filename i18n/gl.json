@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"wandascribe-desc": "Ofrece asistencia literaria para a edición de texto wiki usando as capacidades de IA de Wanda, de xeito semellante a Grammarly",
+	"wandascribe-panel-title": "Axudante de escritura WandaScribe",
+	"wandascribe-check-spelling": "Revisar a ortografía",
+	"wandascribe-check-grammar": "Revisar a gramática",
+	"wandascribe-improve-text": "Mellorar o texto",
+	"wandascribe-make-formal": "Facer formal",
+	"wandascribe-make-casual": "Facer informal",
+	"wandascribe-simplify": "Simplificar",
+	"wandascribe-expand": "Ampliar",
+	"wandascribe-summarize": "Resumir",
+	"wandascribe-loading": "Procesando con IA...",
+	"wandascribe-error": "Houbo un erro. Inténtao de novo.",
+	"wandascribe-no-text-selected": "Selecciona algo de texto para obter axuda.",
+	"wandascribe-apply": "Aplicar",
+	"wandascribe-apply-all": "Aplicar todo",
+	"wandascribe-dismiss": "Descartar",
+	"wandascribe-suggestion": "Suxestión",
+	"wandascribe-powered-by-wanda": "Desenvolvido por Wanda",
+	"wandascribe-select-text-hint": "Selecciona algo de texto no editor para obter axuda coa escritura.",
+	"wandascribe-wanda-not-available": "A extensión Wanda non está dispoñible ou non está configurada correctamente.",
+	"wandascribe-no-spelling-errors": "Non se atoparon erros ortográficos!",
+	"wandascribe-no-changes-needed": "Non se precisan cambios.",
+	"wandascribe-all-corrections-applied": "Aplicáronse todas as correccións!"
+}

@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"wandascribe-desc": "{{desc|name=WandaScribe|url=https://www.mediawiki.org/wiki/Extension:WandaScribe}}",
 	"wandascribe-panel-title": "Title of the WandaScribe assistance panel",
 	"wandascribe-check-spelling": "Button text for checking spelling",
