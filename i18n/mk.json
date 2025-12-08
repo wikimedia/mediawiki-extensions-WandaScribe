@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"wandascribe-desc": "Дава книжевна помош за уредување на викитекст користејќи ги ВИ-можностите на Ванда, слично како Grammarly.",
+	"wandascribe-panel-title": "Помошник со пишување WandaScribe",
+	"wandascribe-check-spelling": "Провери правопис",
+	"wandascribe-check-grammar": "Провери граматика",
+	"wandascribe-improve-text": "Подобри текст",
+	"wandascribe-make-formal": "Направи формално",
+	"wandascribe-make-casual": "Направи неформално",
+	"wandascribe-simplify": "Упрости",
+	"wandascribe-expand": "Прошири",
+	"wandascribe-summarize": "Сумирај",
+	"wandascribe-loading": "Обработувам со ВИ...",
+	"wandascribe-error": "Се појави грешка. Обидете се повторно.",
+	"wandascribe-no-text-selected": "Изберете текст за да добиете помош.",
+	"wandascribe-apply": "Примени",
+	"wandascribe-apply-all": "Примени сè",
+	"wandascribe-dismiss": "Тргни",
+	"wandascribe-suggestion": "Предлог",
+	"wandascribe-powered-by-wanda": "Овозможено од Ванда",
+	"wandascribe-select-text-hint": "Изберете текст во уредувачот за да добиете помош со пишување.",
+	"wandascribe-wanda-not-available": "Додатокот „Ванда“ не е достапен или не е правилно наместен.",
+	"wandascribe-no-spelling-errors": "Не најдов правописни грешки!",
+	"wandascribe-no-changes-needed": "Нема потреба од никакви промени.",
+	"wandascribe-all-corrections-applied": "Сите промени се применети!"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"wandascribe-desc": "利用 Wanda 的人工智慧功能，為 wikitext 編輯提供類似 Grammarly 的文學協助功能。",
+	"wandascribe-panel-title": "WandaScribe 寫作助手",
+	"wandascribe-check-spelling": "檢查拼字",
+	"wandascribe-check-grammar": "檢查文法",
+	"wandascribe-improve-text": "改善文字",
+	"wandascribe-make-formal": "正式",
+	"wandascribe-make-casual": "隨意",
+	"wandascribe-simplify": "簡化",
+	"wandascribe-expand": "擴充",
+	"wandascribe-summarize": "摘要",
+	"wandascribe-loading": "利用 AI 進行處理…",
+	"wandascribe-error": "發生錯誤。請稍後再試。",
+	"wandascribe-no-text-selected": "請選擇一些要取得協助的文字",
+	"wandascribe-apply": "套用",
+	"wandascribe-apply-all": "全部套用",
+	"wandascribe-dismiss": "不予考慮",
+	"wandascribe-suggestion": "建議",
+	"wandascribe-powered-by-wanda": "由 Wanda 提供技術支援",
+	"wandascribe-select-text-hint": "在編輯器中選擇文字來獲取寫作協助。",
+	"wandascribe-wanda-not-available": "Wanda 擴充功能無法使用或配置不正確。",
+	"wandascribe-no-spelling-errors": "未發現拼字錯誤！",
+	"wandascribe-no-changes-needed": "無需變動。",
+	"wandascribe-all-corrections-applied": "已套用所有更正！"
+}

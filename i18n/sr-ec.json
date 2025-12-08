@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"wandascribe-summarize": "Сумирај",
+	"wandascribe-error": "Дошло је до грешке. Покушајте поново.",
+	"wandascribe-apply": "Примени",
+	"wandascribe-dismiss": "Одбаци",
+	"wandascribe-no-changes-needed": "Нису потребне измене."
+}
