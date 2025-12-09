@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wandascribe-desc": "Bietet sprachliche Unterstützung für die Bearbeitung von Wikitext mithilfe der KI-Funktionen von Wanda, ähnlich wie Grammarly.",
+	"wandascribe-panel-title": "WandaScribe Schreibassistent",
+	"wandascribe-check-spelling": "Rechtschreibung prüfen",
+	"wandascribe-check-grammar": "Grammatik prüfen",
+	"wandascribe-improve-text": "Text verbessern",
+	"wandascribe-make-formal": "Formell gestalten",
+	"wandascribe-make-casual": "Informell gestalten",
+	"wandascribe-simplify": "Vereinfachen",
+	"wandascribe-expand": "Ausklappen",
+	"wandascribe-summarize": "Zusammenfassen",
+	"wandascribe-loading": "Verarbeitung mit KI …",
+	"wandascribe-error": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+	"wandascribe-no-text-selected": "Bitte wähle einen Text aus, um Hilfe zu erhalten.",
+	"wandascribe-apply": "Anwenden",
+	"wandascribe-apply-all": "Alle anwenden",
+	"wandascribe-dismiss": "Ausblenden",
+	"wandascribe-suggestion": "Vorschlag",
+	"wandascribe-powered-by-wanda": "Unterstützt von Wanda",
+	"wandascribe-select-text-hint": "Markiere Text im Editor, um Schreibhilfe zu erhalten.",
+	"wandascribe-wanda-not-available": "Die Wanda-Erweiterung ist nicht verfügbar oder nicht richtig konfiguriert.",
+	"wandascribe-no-spelling-errors": "Keine Rechtschreibfehler gefunden!",
+	"wandascribe-no-changes-needed": "Es sind keine Änderungen erforderlich.",
+	"wandascribe-all-corrections-applied": "Alle Korrekturen wurden vorgenommen!"
+}
