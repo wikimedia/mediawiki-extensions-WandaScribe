@@ -30,7 +30,6 @@
 				"editorIntegration.js",
 				"components/AssistancePanel.vue",
 				"components/SuggestionPopup.vue",
-                "codex.js",
 				{
 					"name": "icons.json",
 					"callback": "MediaWiki\\ResourceLoader\\CodexModule::getIcons",
