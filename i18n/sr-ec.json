@@ -4,9 +4,11 @@
 			"Milicevic01"
 		]
 	},
+	"wandascribe-simplify": "Упрости",
 	"wandascribe-summarize": "Сумирај",
 	"wandascribe-error": "Дошло је до грешке. Покушајте поново.",
 	"wandascribe-apply": "Примени",
+	"wandascribe-apply-all": "Примени све",
 	"wandascribe-dismiss": "Одбаци",
 	"wandascribe-no-changes-needed": "Нису потребне измене."
 }
