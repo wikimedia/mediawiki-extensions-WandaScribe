@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"wandascribe-desc": "Wanda’nın yapay zekâ yeteneklerini kullanarak (Grammarly’ye benzer biçimde) viki-metin düzenlemeye yönelik yazım ve dil desteği sağlar.",
+	"wandascribe-panel-title": "WandaScribe yazım asistanı",
+	"wandascribe-check-spelling": "Yazım denetimi",
+	"wandascribe-check-grammar": "Dil bilgisi denetimi",
+	"wandascribe-improve-text": "Metni iyileştir",
+	"wandascribe-make-formal": "Resmîleştir",
+	"wandascribe-make-casual": "Gündelikleştir",
+	"wandascribe-simplify": "Basitleştir",
+	"wandascribe-expand": "Genişlet",
+	"wandascribe-summarize": "Özetle",
+	"wandascribe-loading": "Yapay zekâ ile işleniyor...",
+	"wandascribe-error": "Bir hata oluştu. Lütfen, tekrar deneyin.",
+	"wandascribe-no-text-selected": "Yardım alabilmek için lütfen bir metin seçin.",
+	"wandascribe-apply": "Uygula",
+	"wandascribe-apply-all": "Tümüne uygula",
+	"wandascribe-dismiss": "Reddet",
+	"wandascribe-suggestion": "Öneri",
+	"wandascribe-powered-by-wanda": "Wanda tarafından desteklenmektedir",
+	"wandascribe-select-text-hint": "Yazım desteği almak için düzenleyicide bir metin seçin.",
+	"wandascribe-wanda-not-available": "Wanda eklentisi kullanılamıyor veya doğru şekilde yapılandırılmamış.",
+	"wandascribe-no-spelling-errors": "Yazım hatası bulunamadı!",
+	"wandascribe-no-changes-needed": "Herhangi bir değişiklik gerekmiyor.",
+	"wandascribe-all-corrections-applied": "Tüm düzeltmeler uygulandı!"
+}
