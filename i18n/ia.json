@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"wandascribe-desc": "Forni assistentia litterari pro le modification de wikitexto usante le capacitates IA de Wanda, similar a Grammarly",
+	"wandascribe-panel-title": "Assistente de scriptura WandaScribe",
+	"wandascribe-check-spelling": "Verificar orthographia",
+	"wandascribe-check-grammar": "Verificar grammatica",
+	"wandascribe-improve-text": "Meliorar texto",
+	"wandascribe-make-formal": "Render formal",
+	"wandascribe-make-casual": "Render casual",
+	"wandascribe-simplify": "Simplificar",
+	"wandascribe-expand": "Expander",
+	"wandascribe-summarize": "Summarisar",
+	"wandascribe-loading": "Processamento con IA…",
+	"wandascribe-error": "Un error ha occurrite. Per favor reproba.",
+	"wandascribe-no-text-selected": "Per favor selige alcun texto pro obtener assistentia.",
+	"wandascribe-apply": "Applicar",
+	"wandascribe-apply-all": "Applicar totes",
+	"wandascribe-dismiss": "Declinar",
+	"wandascribe-suggestion": "Suggestion",
+	"wandascribe-powered-by-wanda": "Actionate per Wanda",
+	"wandascribe-select-text-hint": "Selige texto in le editor pro obtener assistentia de scriptura.",
+	"wandascribe-wanda-not-available": "Le extension Wanda non es disponibile o non es correctemente configurate.",
+	"wandascribe-no-spelling-errors": "Necun error de orthographia trovate!",
+	"wandascribe-no-changes-needed": "Necun cambiamento necessari.",
+	"wandascribe-all-corrections-applied": "Tote le correctiones ha essite applicate!"
+}
