@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"wandascribe-desc": "Biedt literaire ondersteuning bij het bewerken van wikiteksten met behulp van Wanda's AI-mogelijkheden, vergelijkbaar met Grammarly",
+	"wandascribe-panel-title": "WandaScribe schrijfassistent",
+	"wandascribe-check-spelling": "Spelling controleren",
+	"wandascribe-check-grammar": "Grammatica controleren",
+	"wandascribe-improve-text": "Tekst verbeteren",
+	"wandascribe-make-formal": "Formeel maken",
+	"wandascribe-make-casual": "Informeel maken",
+	"wandascribe-simplify": "Vereenvoudigen",
+	"wandascribe-expand": "Uitbreiden",
+	"wandascribe-summarize": "Samenvatten",
+	"wandascribe-loading": "Bezig met verwerking door AI...",
+	"wandascribe-error": "Er is een fout opgetreden. Probeer het opnieuw.",
+	"wandascribe-no-text-selected": "Selecteer een stuk tekst om hulp te krijgen.",
+	"wandascribe-apply": "Toepassen",
+	"wandascribe-apply-all": "Alles toepassen",
+	"wandascribe-dismiss": "Afwijzen",
+	"wandascribe-suggestion": "Suggestie",
+	"wandascribe-powered-by-wanda": "Mogelijk gemaakt door Wanda",
+	"wandascribe-select-text-hint": "Selecteer tekst in de tekstverwerker om schrijfhulp te krijgen.",
+	"wandascribe-wanda-not-available": "De Wanda-uitbreiding is niet beschikbaar of niet correct instegeld.",
+	"wandascribe-no-spelling-errors": "Geen spelfouten gevonden!",
+	"wandascribe-no-changes-needed": "Geen wijzigingen nodig.",
+	"wandascribe-all-corrections-applied": "Alle correcties zijn doorgevoerd!"
+}
