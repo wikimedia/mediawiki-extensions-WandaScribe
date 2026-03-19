@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"wandascribe-desc": "Zagotavlja literarno pomoč pri urejanju vikibesedil z uporabo Wandinih zmogljivosti umetne inteligence, podobno kot Grammarly.",
+	"wandascribe-panel-title": "WandaScribe, asistentka za pisanje",
+	"wandascribe-check-spelling": "Preveri črkovanje",
+	"wandascribe-check-grammar": "Preveri slovnico",
+	"wandascribe-improve-text": "Izboljšaj besedilo",
+	"wandascribe-make-formal": "Naredi formalno",
+	"wandascribe-make-casual": "Naredi sproščeno",
+	"wandascribe-simplify": "Poenostavi",
+	"wandascribe-expand": "Razširi",
+	"wandascribe-summarize": "Povzemi",
+	"wandascribe-loading": "Obdelava z UI ...",
+	"wandascribe-error": "Prišlo je do napake. Poskusite znova.",
+	"wandascribe-no-text-selected": "Za pomoč izberite nekaj besedila.",
+	"wandascribe-apply": "Uporabi",
+	"wandascribe-apply-all": "Uporabi vse",
+	"wandascribe-dismiss": "Opusti",
+	"wandascribe-suggestion": "Predlog",
+	"wandascribe-powered-by-wanda": "Poganja Wanda",
+	"wandascribe-select-text-hint": "Za pomoč pri pisanju izberite besedilo v urejevalniku.",
+	"wandascribe-wanda-not-available": "Razširitev Wanda ni na voljo ali ni pravilno konfigurirana.",
+	"wandascribe-no-spelling-errors": "Ni najdenih napak v črkovanju!",
+	"wandascribe-no-changes-needed": "Potrebna ni nobena sprememba",
+	"wandascribe-all-corrections-applied": "Vsi popravki so bili uporabljeni!"
+}
