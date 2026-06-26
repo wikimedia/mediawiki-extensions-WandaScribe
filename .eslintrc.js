@@ -26,6 +26,7 @@ module.exports = {
   globals: {
     mw: 'readonly',
     $: 'readonly',
-    jQuery: 'readonly'
+    jQuery: 'readonly',
+    ve: 'readonly'
   }
 };

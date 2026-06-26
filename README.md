@@ -1,6 +1,6 @@
 # WandaScribe - AI Writing Assistant for MediaWiki
 
-WandaScribe is a MediaWiki extension that provides literary assistance by utilizing the LLM capability of the [Wanda extension](https://www.mediawiki.org/wiki/Extension:Wanda). It helps users write better content in the default wikitext edit window with features like spell check, grammar check, text improvement, and more.
+WandaScribe is a MediaWiki extension that provides literary assistance by utilizing the LLM capability of the [Wanda extension](https://www.mediawiki.org/wiki/Extension:Wanda). It helps users write better content in both the default wikitext edit window and the [VisualEditor](https://www.mediawiki.org/wiki/Extension:VisualEditor), with features like spell check, grammar check, text improvement, and more.
 
 ## Features
 
@@ -13,6 +13,7 @@ WandaScribe is a MediaWiki extension that provides literary assistance by utiliz
 - **Summarization**: Create concise summaries of longer text
 - **Integrated UI**: Assistance panel appears in the editor with easy-to-use buttons
 - **Non-intrusive Popup**: Suggestions appear in a popup near your selection
+- **VisualEditor Support**: The same assistance panel and suggestions are available while editing with VisualEditor
 
 ## Requirements
 
@@ -86,6 +87,20 @@ As you type, WandaScribe monitors your text and:
 - Shows a popup with suggestions near the cursor
 - Allows you to quickly correct mistakes
 
+> Real-time spell check is only available in the wikitext editor. In VisualEditor, use the **Check Spelling** button on a selection instead.
+
+### In VisualEditor
+
+When the [VisualEditor extension](https://www.mediawiki.org/wiki/Extension:VisualEditor) is installed, WandaScribe automatically registers itself as a VisualEditor plugin — no extra configuration is required.
+
+1. **Open any page in VisualEditor** ("Edit" rather than "Edit source")
+2. The **WandaScribe assistance panel** appears above the editing surface
+3. **Select text** in the document
+4. **Click one of the assistance buttons** (same actions as the wikitext editor)
+5. Review the suggestion in the popup and click **Apply** to replace the selected text
+
+Applied suggestions go through VisualEditor's own edit history, so they can be undone with Ctrl+Z / the undo button like any other change.
+
 ## Troubleshooting
 
 ### Panel doesn't appear
@@ -120,6 +135,8 @@ As you type, WandaScribe monitors your text and:
 - Requires Wanda extension to be installed and configured
 - Performance depends on the LLM provider's speed
 - Quality of suggestions depends on the LLM model used
+- In VisualEditor, suggestions are applied as plain text, so any rich formatting (links, bold, templates, etc.) inside the replaced selection is removed
+- Real-time (as-you-type) spell check is only available in the wikitext editor, not in VisualEditor
 
 ## Support
 

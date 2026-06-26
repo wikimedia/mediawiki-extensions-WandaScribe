@@ -27,6 +27,7 @@
             "class": "MediaWiki\\ResourceLoader\\CodexModule",
 			"packageFiles": [
 				"init.js",
+				"editorIntegrationBase.js",
 				"editorIntegration.js",
 				"components/AssistancePanel.vue",
 				"components/SuggestionPopup.vue",
@@ -78,6 +79,71 @@
 				"wandascribe-no-spelling-errors",
 				"wandascribe-no-changes-needed",
 				"wandascribe-all-corrections-applied"
+			]
+		},
+		"ext.wandascribe.ve": {
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"packageFiles": [
+				"veInit.js",
+				"editorIntegrationBase.js",
+				"veIntegration.js",
+				"components/AssistancePanel.vue",
+				"components/SuggestionPopup.vue",
+				{
+					"name": "icons.json",
+					"callback": "MediaWiki\\ResourceLoader\\CodexModule::getIcons",
+					"callbackParam": [
+						"cdxIconCheck",
+						"cdxIconEdit",
+						"cdxIconInfo",
+						"cdxIconArticleSearch",
+						"cdxIconHighlight",
+						"cdxIconTextStyle"
+					]
+				}
+			],
+			"styles": [
+				"styles/editor.css"
+			],
+			"dependencies": [
+				"vue"
+			],
+			"codexComponents": [
+				"CdxButton",
+				"CdxProgressBar",
+				"CdxMessage",
+				"CdxIcon"
+			],
+			"messages": [
+				"wandascribe-panel-title",
+				"wandascribe-check-spelling",
+				"wandascribe-check-grammar",
+				"wandascribe-improve-text",
+				"wandascribe-make-formal",
+				"wandascribe-make-casual",
+				"wandascribe-simplify",
+				"wandascribe-expand",
+				"wandascribe-summarize",
+				"wandascribe-loading",
+				"wandascribe-error",
+				"wandascribe-no-text-selected",
+				"wandascribe-apply",
+				"wandascribe-apply-all",
+				"wandascribe-dismiss",
+				"wandascribe-suggestion",
+				"wandascribe-powered-by-wanda",
+				"wandascribe-select-text-hint",
+				"wandascribe-wanda-not-available",
+				"wandascribe-no-spelling-errors",
+				"wandascribe-no-changes-needed",
+				"wandascribe-all-corrections-applied"
+			]
+		}
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.wandascribe.ve"
 			]
 		}
 	},
