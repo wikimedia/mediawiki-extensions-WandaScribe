@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"wandascribe-check-spelling": "د املا سم‌کتنه",
+	"wandascribe-check-grammar": "د ژبدود سم‌کتنه",
+	"wandascribe-improve-text": "ليک ښه‌کول",
+	"wandascribe-make-formal": "رسمي يې کړئ",
+	"wandascribe-make-casual": "لوست وړ يې کړئ",
+	"wandascribe-simplify": "ساده‌کول",
+	"wandascribe-expand": "غځول",
+	"wandascribe-summarize": "لنډيزول",
+	"wandascribe-loading": "مصنوعي ځيرکتيا سره پروسس کول...",
+	"wandascribe-apply": "پلي‌کول",
+	"wandascribe-apply-all": "ټول پلي‌کول",
+	"wandascribe-dismiss": "تړل",
+	"wandascribe-suggestion": "وړانديزونه",
+	"wandascribe-powered-by-wanda": "د وانډا له خوا پرمخ وړل کېږي",
+	"wandascribe-no-spelling-errors": "هېڅ املايي تېروتنه ونه موندل شوه!",
+	"wandascribe-no-changes-needed": "هېڅ بدلون ته اړتيا نشته.",
+	"wandascribe-all-corrections-applied": "ټولې سمونې پلې شوې!"
+}
