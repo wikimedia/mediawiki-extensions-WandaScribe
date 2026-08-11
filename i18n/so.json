@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"wandascribe-desc": "Waxay bixisaa caawimo qoraal oo loogu talagalay tafatirka wikitext-ka iyadoo adeegsanaysa awoodaha AI ee Wanda, si la mid ah Grammarly",
+	"wandascribe-panel-title": "Kaaliyaha qoraalka WandaScribe",
+	"wandascribe-check-spelling": "Hubi higgaadda",
+	"wandascribe-check-grammar": "Hubi naxwaha",
+	"wandascribe-improve-text": "Hagaaji qoraalka",
+	"wandascribe-make-formal": "Ka dhig mid rasmi ah",
+	"wandascribe-make-casual": "Ka dhig mid aan rasmi ahayn",
+	"wandascribe-simplify": "Fududee",
+	"wandascribe-expand": "Sii balaari",
+	"wandascribe-summarize": "Soo koob",
+	"wandascribe-loading": "Waxaa lagu farsamaynayaa AI...",
+	"wandascribe-error": "Khalad ayaa dhacay. Fadlan mar kale isku day.",
+	"wandascribe-no-text-selected": "Fadlan dooro qoraal si aad u hesho caawimo.",
+	"wandascribe-apply": "Dhaqan geli",
+	"wandascribe-apply-all": "Dhammaan dhaqan geli",
+	"wandascribe-dismiss": "Xir",
+	"wandascribe-suggestion": "Talooyin",
+	"wandascribe-powered-by-wanda": "Waxaa awood siiya Wanda",
+	"wandascribe-select-text-hint": "Dooro qoraal ku jira tifaftiraha si aad u hesho caawimo qoraal.",
+	"wandascribe-wanda-not-available": "Kordhinta Wanda lama heli karo ama si sax ah looma habayn.",
+	"wandascribe-no-spelling-errors": "Lama helin khaladaad higgaadeed!",
+	"wandascribe-no-changes-needed": "Wax ka beddel looma baahna.",
+	"wandascribe-all-corrections-applied": "Dhammaan sixitaannada waa la dhaqan geliyay!"
+}
