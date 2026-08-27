@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"باران",
 			"شاه زمان پټان"
 		]
 	},
+	"wandascribe-desc": "د وانډا مصنوعي ځيرکتيا وړتياوو په کارولو سره  د گرامرلي په څېر د ويکي‌ليک سمولو لپاره ادبي مرسته چمتوکوي",
+	"wandascribe-panel-title": "WandaScribe ليکلو مرستيال",
 	"wandascribe-check-spelling": "د املا سم‌کتنه",
 	"wandascribe-check-grammar": "د ژبدود سم‌کتنه",
 	"wandascribe-improve-text": "ليک ښه‌کول",
@@ -13,11 +16,15 @@
 	"wandascribe-expand": "غځول",
 	"wandascribe-summarize": "لنډيزول",
 	"wandascribe-loading": "مصنوعي ځيرکتيا سره پروسس کول...",
+	"wandascribe-error": "يوه تېروتنه پېښه شوه. مهرباني وکړئ بيا هڅه وکړئ.",
+	"wandascribe-no-text-selected": "مهرباني وکړئ د مرستې ترلاسه‌کولو لپاره يو څه ليک غوره کړئ.",
 	"wandascribe-apply": "پلي‌کول",
 	"wandascribe-apply-all": "ټول پلي‌کول",
 	"wandascribe-dismiss": "تړل",
 	"wandascribe-suggestion": "وړانديز",
 	"wandascribe-powered-by-wanda": "د وانډا له خوا پرمخ وړل کېږي",
+	"wandascribe-select-text-hint": "د ليکلو مرستې ترلاسه‌کولو لپاره په سمونگر کې ليک غوره کړئ.",
+	"wandascribe-wanda-not-available": "د وانډا شاتاړی شتون نلري يا په سمه توگه ترتيب شوی نه دی.",
 	"wandascribe-no-spelling-errors": "هېڅ املايي تېروتنه ونه موندل شوه!",
 	"wandascribe-no-changes-needed": "هېڅ بدلون ته اړتيا نشته.",
 	"wandascribe-all-corrections-applied": "ټولې سمونې پلې شوې!"
