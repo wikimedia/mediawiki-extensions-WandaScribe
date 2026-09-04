@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"PanWor"
+		]
+	},
+	"wandascribe-desc": "Wspomaga redagowanie tekstów podczas edycji wikikodu, wykorzystując możliwości sztucznej inteligencji Wandy, przypominając Grammarly",
+	"wandascribe-panel-title": "WandaScribe – asystentka pisania",
+	"wandascribe-check-spelling": "Sprawdź pisownię",
+	"wandascribe-check-grammar": "Sprawdź gramatykę",
+	"wandascribe-improve-text": "Popraw tekst",
+	"wandascribe-make-formal": "Nadaj styl formalny",
+	"wandascribe-make-casual": "Nadaj styl swobodny",
+	"wandascribe-simplify": "Uprość",
+	"wandascribe-expand": "Rozwiń",
+	"wandascribe-summarize": "Podsumuj",
+	"wandascribe-loading": "Przetwarzanie przy użyciu sztucznej inteligencji…",
+	"wandascribe-error": "Wystąpił błąd. Spróbuj ponownie.",
+	"wandascribe-no-text-selected": "Wybierz fragment tekstu, aby uzyskać wsparcie.",
+	"wandascribe-apply": "Zastosuj",
+	"wandascribe-apply-all": "Zastosuj wszystko",
+	"wandascribe-dismiss": "Odrzuć",
+	"wandascribe-suggestion": "Sugestia",
+	"wandascribe-powered-by-wanda": "Dostarczane przez czatbota Wandę",
+	"wandascribe-select-text-hint": "Zaznacz tekst w edytorze, aby uzyskać wsparcie w pisaniu.",
+	"wandascribe-wanda-not-available": "Rozszerzenie Wanda jest niedostępne lub nieprawidłowo skonfigurowane.",
+	"wandascribe-no-spelling-errors": "Nie znaleziono błędów w pisowni!",
+	"wandascribe-no-changes-needed": "Nie są potrzebne żadne zmiany.",
+	"wandascribe-all-corrections-applied": "Wszystkie poprawki zostały zastosowane!"
+}
