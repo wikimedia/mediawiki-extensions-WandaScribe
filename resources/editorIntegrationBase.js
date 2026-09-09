@@ -235,8 +235,7 @@ IMPORTANT: Return ONLY the summary. Do NOT include any preamble, explanations, o
         format: 'json',
         message: message,
         customprompt: customprompt,
-        skipesquery: true,
-        usepublicknowledge: true,
+        sources: [ 'publicknowledge' ],
         temperature: '0',
         maxtokens: 10000
       } );
